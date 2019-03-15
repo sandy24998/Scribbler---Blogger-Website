@@ -1,0 +1,107 @@
+.blogTite {
+    font-size: 150%;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+.blogText {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.blogAuthor {
+    padding: 0px 0px 0px 10px;
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+    margin: 0 70px;
+}
+.blogContent{
+   display: flex;
+   justify-content: center;
+}
+
+/* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
+
+.blogText{
+    padding: 0px 0px 0px 10px;
+    margin: 0 70px;
+}
+#blogBody{
+    text-align: justify;
+}
+
+#p1{
+    display:inline;
+}
+#p2{
+    word-spacing: 3px;
+}
+#p3{
+    font-weight: 700;
+    margin-top: 30px;
+}
+.p4{
+    padding: 20px 10px;
+    margin: 20px;
+    background-color: #fff;
+}
+#editIcon{
+    float: right;
+    width: 70px;
+    background-color: #EF3B65;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 8px 30px -8px #EF3B65;
+}
+#saveIcon{
+        display: none;
+        float: right;
+        width: 70px;
+        background-color: #EF3B65;
+        padding: 10px;
+        border: none;
+        outline: none;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 8px 30px -8px #EF3B65;
+    
+}
+.likeIcon{
+    float: left;
+    width: 120px;
+    border-radius: 3px;
+    background-color: #EF3B65;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 6px 20px -4px #EF3B65;
+}
+.likeCommentSection{
+    display: flex;
+    padding: 10px 0px 0px 10px;
+    margin: 0 70px;
+    flex-flow: column wrap;
+}
+.items{
+    margin-top: -6px;
+}
+
+#commentbtn{
+    float: left;
+    width: 100px;
+    margin-top: 10px;
+    background-color: rgb(235, 46, 90);
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 8px 20px -6px #EF3B65;
+}
+#addComment{
+    background-color: #E2E4E6;
+}

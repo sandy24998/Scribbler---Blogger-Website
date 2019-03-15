@@ -1,0 +1,29 @@
+body{
+   background: url('background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+} 
+
+/* Set a style for the rest of the elements besides the header elements on the index.html page */
+.postButtons{
+    text-align: center;
+    transform: translate(0,140px);
+ }
+ .middlebutton{
+ 	background: #c9b328;
+ 	font-weight: 700;
+ 	font-size: 16px;
+    padding: 10px 12px;
+    margin: 5px;
+    cursor: pointer;
+ }
+ .midbtn{
+ 	text-decoration: none;
+ 	color: black;
+ }	                                
