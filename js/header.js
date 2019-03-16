@@ -25,4 +25,9 @@ window.onclick = function(event) {
     {
         signUp.style.display = "none";
       }
+  };
+
+  function newModal(){
+    signIn.style.display = "none";
+    signUp.style.display = "block";
   }

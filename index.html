@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
     <!-- Place all CSS for header in this file -->
@@ -8,22 +9,23 @@
     <!-- Place all CSS for the rest of the elements in this file -->
     <link href='css\index.css' rel='stylesheet' type='text/css'>
 
-	<!-- Place all CSS for fonts in this file -->
+    <!-- Place all CSS for fonts in this file -->
     <link href='css\font.css' rel='stylesheet' type='text/css'>
 
 </head>
+
 <body>
     <div id="main-container-div">
         <div class="header">
-        	<!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
-             <a id="pageTitle" class="logo-title" href="index.html">ScriBBler</a>
-             <button type="button" class="topButtons" onclick="modalDialog2()">Sign Up</button>
+            <!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
+            <a id="pageTitle" class="logo-title" href="index.html">ScriBBler</a>
+            <button type="button" class="topButtons" onclick="modalDialog2()">Sign Up</button>
             <button type="button" class="topButtons" onclick="modalDialog1()">Sign In</button>
             <p class="middleText">Explore, Imagine, Create</p>
         </div>
-           
+
         <div class="postButtons">
-        	<!-- Insert code for All Posts & Create Post button here -->
+            <!-- Insert code for All Posts & Create Post button here -->
             <button type="submit" class="middlebutton"><a class="midbtn" href="html/bloglist.html"> All Posts</a></button>
             <button type="submit" class="middlebutton"><a class="midbtn" href="html/post.html">Create Post</a></button>
 
@@ -31,78 +33,80 @@
     </div>
 
     <div id="SignInModal" class="modal">
-    	<!-- Insert code for Sign In modal here -->
+        <!-- Insert code for Sign In modal here -->
         <div class="modal-content">
-              <span class="close" id="signInClose" onclick="hideModal1()">&times;</span>
-              <div class="modal-header">
-                <h1>Welcome Back!</h1>  
-              </div>
-              <div class="modal-body">
-                  <form>
-                      <div class="form-group">
-                          <label for="username"><b>Username</b></label>
-                          <input type="text" class="form-control" id="username" required placeholder="Enter Username">
-                      </div>
-                      <div class="form-group">
-                          <label for="password"><b>Password</b></label>
-                          <input type="password" class="form-control" id="password" required placeholder="Enter Password">
-                      </div>
-                      <div class="form-group">
-                          <button type="submit" class="modalbtn">Sign In</button>
-                      </div>
-                  </form>
-              </div>
-              <div class="modal-footer">
-                  <h3>Not a Member? <a id="signUpLink" href="">Sign Up</a></h3>
-              </div>
+            <span class="close" id="signInClose" onclick="hideModal1()">&times;</span>
+            <div class="modal-header">
+                <h1>Welcome Back!</h1>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="username"><b>Username</b></label>
+                        <input type="text" class="form-control" id="username" required placeholder="Enter Username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password"><b>Password</b></label>
+                        <input type="password" class="form-control" id="password" required placeholder="Enter Password">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="modalbtn">Sign In</button>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <h3>Not a Member? <a id="signUpLink" onclick="newModal()" href="#">Sign Up</a></h3>
+            </div>
         </div>
-        
+
     </div>
 
     <div id="SignUpModal" class="modal">
-    	<!-- Insert code for Sign Up modal here -->
+        <!-- Insert code for Sign Up modal here -->
         <div class="modal-content">
-              <span class="close" id="signUpClose" onclick="hideModal2()">&times;</span>
-              <div class="modal-header">
-                <h1>Get Started</h1>  
+            <span class="close" id="signUpClose" onclick="hideModal2()">&times;</span>
+            <div class="modal-header">
+                <h1>Get Started</h1>
                 <hr>
-              </div>
-               <div class="modal-body">
-                  <form>                   
-                     <div class="form-group">
-                          <label for="name"><b>Full Name</b></label>
-                          <input type="text" class="form-control" id="name" required placeholder="Enter Full Name">
-                      </div>
-                      <div class="form-group">
-                          <label for="username"><b>Username</b></label>
-                          <input type="text" class="form-control" id="username" required placeholder="Enter Username">
-                      </div>
-                      <div class="form-group">
-                          <label for="password"><b>Password</b></label>
-                          <input type="password" class="form-control" id="password" required placeholder="Enter Password">
-                      </div>
-                      <div class="form-group">
-                          <label for="confirmpassword"><b>Confirm Password</b></label>
-                          <input type="password" class="form-control" id="confirmpassword" required placeholder="Confirm Password">
-                      </div>
-                      <div class="form-group">
-                          <button type="submit" class="modalbtn">Sign Up</button>
-                      </div>
-                  </form>
-              </div>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="name"><b>Full Name</b></label>
+                        <input type="text" class="form-control" id="name" required placeholder="Enter Full Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="username"><b>Username</b></label>
+                        <input type="text" class="form-control" id="username" required placeholder="Enter Username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password"><b>Password</b></label>
+                        <input type="password" class="form-control" id="password" required placeholder="Enter Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmpassword"><b>Confirm Password</b></label>
+                        <input type="password" class="form-control" id="confirmpassword" required placeholder="Confirm Password">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="modalbtn">Sign Up</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
     <div>
 
-    	<!-- Insert code for Create Post modal here -->
+        <!-- Insert code for Create Post modal here -->
+
 
     </div>
 
-	<!-- Place all Javascript for header in this file -->
-	<script src="js\header.js"></script>
-	<!-- Place all Javascript for rest of the elements in this file -->
+    <!-- Place all Javascript for header in this file -->
+    <script src="js\header.js"></script>
+    <!-- Place all Javascript for rest of the elements in this file -->
     <script src="js\index.js"></script>
 
 </body>
+
 </html>

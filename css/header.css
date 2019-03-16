@@ -86,6 +86,7 @@ input[type="text"],input[type="password"]{
   outline: none;
   border: none;
   margin: 5px 0;
+  cursor: pointer;
 }
 .modal-footer{
   text-align: center;

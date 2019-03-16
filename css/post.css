@@ -89,7 +89,9 @@
 .items{
     margin-top: -6px;
 }
-
+#commentbox{
+    max-width: 100%;
+}
 #commentbtn{
     float: left;
     width: 100px;

@@ -34,10 +34,9 @@ function editAndSave(){
         editableParagraph.defaultValue += editableParagraph.value;
     }
 }
-
 function addComments(id){
     if(id.value == ""){
-        return
+        return;
     }
     else{
     commentText = id.value +'<br>';

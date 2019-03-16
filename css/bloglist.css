@@ -4,7 +4,7 @@
 }
 .row1,.row2,.row3{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .post {
     flex-basis: 40%;
