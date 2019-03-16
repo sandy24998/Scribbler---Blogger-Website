@@ -109,7 +109,7 @@ body {
       display: flex;
       justify-content: space-around;
   }
-  .yes-btn{
+  .yes-btn {
       background-color:#f5564a;
       padding: 10px 30px;
       color: white;

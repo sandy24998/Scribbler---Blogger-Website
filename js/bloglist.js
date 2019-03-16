@@ -5,7 +5,7 @@ function showDeleteModal() {
 function hideModal(){
     delModal.style.display ="none"; 
 }
-window.onclick = function(event) {
+window.onclick = function(event){
     if (event.target == delModal) {
       delModal.style.display = "none";
     }

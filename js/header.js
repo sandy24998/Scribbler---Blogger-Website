@@ -5,7 +5,7 @@ function modalDialog1(){
     signIn.style.display = "block";
 }
 
-function hideModal1() {
+function hideModal1(){
     signIn.style.display = "none";
 }
 
