@@ -11,7 +11,7 @@
 .middleText{
     font-family: 'Marck Script','cursive';
 }
-.modal-header,.modal-body label {
+.modal-header,.modal-body label,.modal-header1,.modal-body1 label {
   font-family:'Barlow Semi Condensed', sans-serif;
 }
 @font-face {

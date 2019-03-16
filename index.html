@@ -27,8 +27,7 @@
         <div class="postButtons">
             <!-- Insert code for All Posts & Create Post button here -->
             <button type="submit" class="middlebutton"><a class="midbtn" href="html/bloglist.html"> All Posts</a></button>
-            <button type="submit" class="middlebutton"><a class="midbtn" href="html/post.html">Create Post</a></button>
-
+            <button type="submit" class="middlebutton"><a class="midbtn" href="#" onclick="createPostModal()">Create Post</a></button>
         </div>
     </div>
 
@@ -95,12 +94,35 @@
         </div>
     </div>
 
-    <div>
-
         <!-- Insert code for Create Post modal here -->
+       
+        <div id="createPostModal" class="modal1">
+                
+                <div class="modal-content1">
+                    <span class="close" id="createPostClose" onclick="hideModal3()">&times;</span>
+                    <div class="modal-header1">
+                        <h1>Create Post</h1>
+                        <hr>
+                    </div>
+                    <div class="modal-body1">
+                        <form>
+                            <div class="form-group">
+                                <label for="title"><b>Enter Title</b></label>
+                                <input type="text" class="form-control" id="PostTitle"  placeholder="Enter Title">
+                            </div>
+                            <div class="form-group">
+                                <label for="Postdetails"><b>Write</b></label>
+                                <input type="text" class="form-control" id="username"  placeholder="Enter your details...">
+                            </div>
+                            <div class="form-group postbtns">
+                                    <div class="postbtn"><button type="submit"  id="createpostbtn"><a href="html/post.html">Create</a></button></div>
+                                    <div class="postbtn"><button type="submit" onclick="hideModal3()"  id="closepostbtn">Close</button></div>
+                             </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
 
-
-    </div>
 
     <!-- Place all Javascript for header in this file -->
     <script src="js\header.js"></script>
