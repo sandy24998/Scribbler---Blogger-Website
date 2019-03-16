@@ -1,7 +1,7 @@
 var signIn = document.getElementById("SignInModal");
 var signUp = document.getElementById("SignUpModal");
 
-function modalDialog1() {
+function modalDialog1(){
     signIn.style.display = "block";
 }
 
