@@ -1,5 +1,5 @@
 var delModal = document.getElementById("deleteModal");
-function showDeleteModal(){
+function showDeleteModal() {
     delModal.style.display ="block";
 }
 function hideModal(){
