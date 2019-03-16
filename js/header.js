@@ -16,3 +16,13 @@ function modalDialog2() {
 function hideModal2() {
     signUp.style.display = "none";
 }
+
+window.onclick = function(event) {
+    if (event.target == signIn) {
+      signIn.style.display = "none";
+    }
+   else if(event.target == signUp)
+    {
+        signUp.style.display = "none";
+      }
+  }

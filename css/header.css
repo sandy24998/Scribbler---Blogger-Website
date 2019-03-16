@@ -67,8 +67,11 @@ form{
 .form-group{
   margin: 12px 0;
 }
+label{
+  color: black;
+}
 input[type="text"],input[type="password"]{
-  width: 100%;
+  width: 96%;
   background-color: #f1f1f1;
   outline: none;
   border:none;
@@ -77,11 +80,12 @@ input[type="text"],input[type="password"]{
 }
 .modalbtn{
   width: 100%;
-  padding:12px 0;
+  padding:12px 7px;
   background-color:#5eb762;
   color: white;
   outline: none;
   border: none;
+  margin: 5px 0;
 }
 .modal-footer{
   text-align: center;
@@ -90,5 +94,6 @@ input[type="text"],input[type="password"]{
   text-decoration: none;
   color: #1f21a8;
 }
+
 
 

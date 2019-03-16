@@ -1,9 +1,10 @@
 .allPostsContainer {
-    display: flex;
-    justify-content: space-around;
-    flex-flow:wrap;
     height: 100%;
     width: 100%;
+}
+.row1,.row2,.row3{
+    display: flex;
+    justify-content: center;
 }
 .post {
     flex-basis: 40%;

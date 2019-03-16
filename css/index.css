@@ -13,7 +13,7 @@ body{
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
 .postButtons{
     text-align: center;
-    transform: translate(0,140px);
+    transform: translate(0,150px);
  }
  .middlebutton{
  	background: #c9b328;
