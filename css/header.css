@@ -43,6 +43,10 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 }
 .modal-header h1{
   text-align: center; 
+  color: black;
+}
+.modal-footer h3{
+  color: black;
 }
 .close {
   color: #aaa;

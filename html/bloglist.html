@@ -17,16 +17,78 @@
                 <!-- Insert code for Sign Up, Sign In button here.
                 Add code for "ScriBBler" heading and the sub-heading -->
                 <a id="pageTitle" class="logo-title" href="../index.html">ScriBBler</a>
-                <button type="button" class="topButtons">Sign Up</button>
-                <button type="button" class="topButtons">Sign Up</button>
+                <button type="button" class="topButtons" onclick="modalDialog2()">Sign Up</button>
+                <button type="button" class="topButtons" onclick="modalDialog1()">Sign In</button>
                 <p class="middleText">Explore, Imagine, Create</p>
             </div>
         </div>
         <div>
             <!-- Insert code for Sign In modal here -->
+            <div id="SignInModal" class="modal">
+                <!-- Insert code for Sign In modal here -->
+                <div class="modal-content">
+                      <span class="close" id="signInClose" onclick="hideModal1()">&times;</span>
+                      <div class="modal-header">
+                        <h1>Welcome Back!</h1>  
+                      </div>
+                      <div class="modal-body">
+                          <form>
+                              <div class="form-group">
+                                  <label for="username"><b>Username</b></label>
+                                  <input type="text" class="form-control" id="username" required placeholder="Enter Username">
+                              </div>
+                              <div class="form-group">
+                                  <label for="password"><b>Password</b></label>
+                                  <input type="password" class="form-control" id="password" required placeholder="Enter Password">
+                              </div>
+                              <div class="form-group">
+                                  <button type="submit" class="modalbtn">Sign In</button>
+                              </div>
+                          </form>
+                      </div>
+                      <div class="modal-footer">
+                          <h3>Not a Member? <a id="signUpLink" href="">Sign Up</a></h3>
+                      </div>
+                </div>
+                
+            </div>
         </div>
         <div>
             <!-- Insert code for Sign Up modal here -->
+            <div id="SignUpModal" class="modal">
+                <!-- Insert code for Sign Up modal here -->
+                <div class="modal-content">
+                      <span class="close" id="signUpClose" onclick="hideModal2()">&times;</span>
+                      <div class="modal-header">
+                        <h1>Get Started</h1>  
+                        <hr>
+                      </div>
+                       <div class="modal-body">
+                          <form>
+                            
+                             <div class="form-group">
+                                  <label for="name"><b>Full Name</b></label>
+                                  <input type="text" class="form-control" id="name" required placeholder="Enter Full Name">
+                              </div>
+                              <div class="form-group">
+                                  <label for="username"><b>Username</b></label>
+                                  <input type="text" class="form-control" id="username" required placeholder="Enter Username">
+                              </div>
+                              <div class="form-group">
+                                  <label for="password"><b>Password</b></label>
+                                  <input type="password" class="form-control" id="password" required placeholder="Enter Password">
+                              </div>
+                              <div class="form-group">
+                                  <label for="confirmpassword"><b>Confirm Password</b></label>
+                                  <input type="password" class="form-control" id="confirmpassword" required placeholder="Confirm Password">
+                              </div>
+                              <div class="form-group">
+                                  <button type="submit" class="modalbtn">Sign Up</button>
+                              </div>
+                          </form>
+                      </div>
+                </div>
+            </div>
         </div>
         <div class="allPostsContainer">
             <div class="post">
@@ -135,7 +197,7 @@
                     </div>
                     <div class="deleteModal-body">
                         <button class="yes-btn">Yes</button>
-                        <button class="no-btn">No</button>
+                        <button class="no-btn" onclick="hideModal()">No</button>
                     </div>
                 </div>
 

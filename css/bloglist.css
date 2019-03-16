@@ -1,6 +1,6 @@
 .allPostsContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-flow:wrap;
     height: 100%;
     width: 100%;
