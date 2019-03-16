@@ -106,4 +106,6 @@
 }
 #addComment{
     background-color: #E2E4E6;
+    display: flex;
+    flex-direction: column-reverse;
 }
