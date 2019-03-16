@@ -1,7 +1,7 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
-the title "ScriBBler" & the sub-heading below "ScriBBLer"  */
+the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 
-.topButtons{
+.topButtons {
     background-color: blue;
     font-size: 14px;
     float: right;
@@ -11,7 +11,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer"  */
     color: white;
     cursor: pointer;
  }
- .logo-title{
+ .logo-title {
    color: #1f21a8;
    font-size: 50px;
    text-decoration: none;

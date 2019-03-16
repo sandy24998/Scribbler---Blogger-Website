@@ -10,7 +10,7 @@ body{
    display: block;
 } 
 
-/* Set a style for the rest of the elements besides the header elements on the index.html page  */
+/* Set a style for the rest of the elements besides the header elements on the index.html page */
 .postButtons{
     text-align: center;
     transform: translate(0,150px);
@@ -47,15 +47,15 @@ body{
    border: 1px solid #888;
    width: 28%;
  }
- .modal-header1 h1{
+ .modal-header1 h1 {
    text-align: center; 
    color: black;
  }
- .postbtns{
+ .postbtns {
    display: flex;
    justify-content: flex-end;
  }
- .postbtn{
+ .postbtn {
     margin: 0 5px;
  }
  #createpostbtn a{

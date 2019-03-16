@@ -7,9 +7,9 @@ var editableParagraph = document.getElementById("blogBody");
 var commentTemplate = document.getElementById("addComment");
 var commentText = "";
 
-function likeFunction(){
+function likeFunction() {
     noOFLikes++;
-    if(noOFLikes==1){
+    if(noOFLikes==1) {
         like.innerHTML = "<i class='fa fa-thumbs-up'></i>Liked!";
         likesOfPeople.innerHTML = "1 person likes this!";
     }
@@ -19,7 +19,7 @@ function likeFunction(){
     }
 }
 
-function editAndSave(){
+function editAndSave() {
     if(editableParagraph.contentEditable == "false"){
         editableParagraph.contentEditable = "true";
         saveIcon.style.display = "block";
@@ -34,8 +34,8 @@ function editAndSave(){
         editableParagraph.defaultValue += editableParagraph.value;
     }
 }
-function addComments(id){
-    if(id.value == ""){
+function addComments(id) {
+    if(id.value == "") {
         return;
     }
     else{

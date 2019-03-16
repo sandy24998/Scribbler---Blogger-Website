@@ -5,16 +5,16 @@
 
 
 
-.logo-title{
+.logo-title {
    font-family: 'Satisfy','cursive';
 }
 .middleText{
     font-family: 'Marck Script','cursive';
 }
-.modal-header,.modal-body label,.modal-header1,.modal-body1 label {
+.modal-header,.modal-body label,.modal-header1,.modal-body1 label{
   font-family:'Barlow Semi Condensed', sans-serif;
 }
-@font-face {
+@font-face{
     font-family: 'Abel';
     font-style: normal;
     font-weight: 400;
