@@ -17,7 +17,7 @@ function hideModal2() {
     signUp.style.display = "none";
 }
 
-window.onclick = function(event) {
+window.onclick = function(event){
     if (event.target == signIn) {
       signIn.style.display = "none";
     }

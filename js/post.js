@@ -19,7 +19,7 @@ function likeFunction(){
     }
 }
 
-function editAndSave() {
+function editAndSave(){
     if(editableParagraph.contentEditable == "false"){
         editableParagraph.contentEditable = "true";
         saveIcon.style.display = "block";

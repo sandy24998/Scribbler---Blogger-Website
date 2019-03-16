@@ -9,4 +9,4 @@ window.onclick = function(event){
     if (event.target == delModal) {
       delModal.style.display = "none";
     }
-  }
+}

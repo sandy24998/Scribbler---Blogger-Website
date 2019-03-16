@@ -1,5 +1,5 @@
 var createPost = document.getElementById("createPostModal");
-function createPostModal(){
+function createPostModal() {
     createPost.style.display = "block";
 }
 
