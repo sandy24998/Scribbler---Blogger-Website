@@ -2,7 +2,7 @@ var delModal = document.getElementById("deleteModal");
 function showDeleteModal(){
     delModal.style.display ="block";
 }
-function hideModal() {
+function hideModal(){
     delModal.style.display ="none"; 
 }
 window.onclick = function(event) {
