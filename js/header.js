@@ -1,5 +1,6 @@
 var signIn = document.getElementById("SignInModal");
 var signUp = document.getElementById("SignUpModal");
+var createPost = document.getElementById("createPostModal");
 
 function modalDialog1() {
     signIn.style.display = "block";
@@ -17,13 +18,16 @@ function hideModal2(){
     signUp.style.display = "none";
 }
 
-window.onclick = function(event){
+document.onclick = function(event){
     if (event.target == signIn) {
       signIn.style.display = "none";
     }
    else if(event.target == signUp)
     {
         signUp.style.display = "none";
+    }
+    else if(event.target == createPost) {
+        createPost.style.display = "none";
     }
   };
 
