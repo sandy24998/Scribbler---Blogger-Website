@@ -19,9 +19,9 @@ body{
  	background: #c9b328;
  	font-weight: 700;
  	font-size: 16px;
-    padding: 10px 12px;
-    margin: 5px;
-    cursor: pointer;
+  padding: 10px 12px;
+  margin: 5px;
+  cursor: pointer;
  }
  .midbtn{
  	text-decoration: none;
